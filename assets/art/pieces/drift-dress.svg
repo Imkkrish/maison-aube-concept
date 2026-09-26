@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d3d1d0"/><stop offset=".7" stop-color="#e6ddd3"/></linearGradient>
+<radialGradient id="sun" cx="250" cy="720" r="320" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f8e9da" stop-opacity=".95"/><stop offset="1" stop-color="#f8e9da" stop-opacity="0"/></radialGradient><pattern id="tex" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="1.4" fill="#3b2a1c"/><rect width="1.2" height="6" fill="#3b2a1c" opacity=".7"/></pattern>
+<linearGradient id="form" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".12"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".18"/></linearGradient>
+<clipPath id="cut"><path d="M346 306 C376 294 424 294 454 306 C462 380 468 420 470 460 C488 600 520 780 546 928 C450 952 350 952 254 928 C280 780 312 600 330 460 C332 420 338 380 346 306Z"/></clipPath>
+<filter id="drop" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="14"/></filter>
+<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .14  0 0 0 0 .11  0 0 0 0 .09  0 0 0 .07 0"/></filter></defs>
+<rect width="800" height="1000" fill="url(#bg)"/><rect width="800" height="1000" fill="url(#sun)"/><rect y="780" width="800" height="220" fill="#b3bbbb"/><rect y="780" width="800" height="2" fill="#f4e6d8"/><path d="M0 860 H800 V1000 H0Z" fill="#9ea9ab" opacity=".7"/><g fill="#f4e6d8" opacity=".6"><rect x="200" y="800" width="120" height="2"/><rect x="170" y="824" width="170" height="2.5"/><rect x="140" y="856" width="220" height="3"/></g>
+<g transform="translate(16 22)" opacity=".2" filter="url(#drop)"><path d="M346 306 C376 294 424 294 454 306 C462 380 468 420 470 460 C488 600 520 780 546 928 C450 952 350 952 254 928 C280 780 312 600 330 460 C332 420 338 380 346 306Z" fill="#231d18"/></g>
+<path d="M346 306 C376 294 424 294 454 306 C462 380 468 420 470 460 C488 600 520 780 546 928 C450 952 350 952 254 928 C280 780 312 600 330 460 C332 420 338 380 346 306Z" fill="#8fa3a0"/>
+<g clip-path="url(#cut)"><rect width="800" height="1000" fill="url(#tex)" opacity="0.1"/></g>
+<path d="M346 306 C376 294 424 294 454 306 L456 330 C424 318 376 318 344 330Z" fill="#a7b9b5"/>
+<g fill="none" stroke="#71858a" stroke-width="3" opacity=".55"><path d="M372 340 C360 520 330 740 300 934"/><path d="M408 340 C420 540 430 760 436 946"/><path d="M440 360 C470 560 500 760 520 932"/></g>
+<path d="M258 912 C350 936 450 936 542 912" fill="none" stroke="#a7b9b5" stroke-width="2" stroke-dasharray="6 6"/>
+<g clip-path="url(#cut)"><rect width="800" height="1000" fill="url(#form)"/></g>
+<path d="M400 176 V150 C400 128 424 122 432 138" fill="none" stroke="#3b3029" stroke-width="4" stroke-linecap="round"/><path d="M284.8 214 Q400 150 515.2 214" fill="none" stroke="#7a5436" stroke-width="9" stroke-linecap="round"/><path d="M330 212 L352 316 M470 212 L448 316" stroke="#71858a" stroke-width="5" stroke-linecap="round"/>
+<rect width="800" height="1000" filter="url(#grain)"/></svg>
